@@ -38,13 +38,19 @@
 }
 
 .footer{
-  height: 25vh;
+  height: 15vh;
   width: 100vw;
   position: fixed;
   bottom: 0;
 }
 .smaller-p{
-  width:200px;
+  width:325px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; 
+  text-align: left;
+}
+.cut-off{
+  height: 10vh;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
