@@ -1,15 +1,12 @@
 .blue-bar{
-  background-color: navy;
-  border: 5px solid black;
+  background-color: rgb(35, 54, 139);
+  border: 3px solid black;
 }
 .text-center{
   text-align: center;
 }
 .white{
   color:white;
-}
-.block{
-  display: inline-block;
 }
 .smaller-div{
   margin-left: auto;
@@ -50,7 +47,10 @@
   text-align: left;
 }
 .cut-off{
+  display: -webkit-box;
   height: 10vh;
   text-overflow: ellipsis;
   overflow: hidden;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;  
 }
