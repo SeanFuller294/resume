@@ -6,7 +6,7 @@
   text-align: center;
 }
 .white{
-  color:white;
+  color:rgb(245,255,250);
 }
 .smaller-div{
   margin-left: auto;
@@ -32,6 +32,7 @@
 
 #right {
   float: right;
+  margin-right: 5%;
 }
 
 .footer{
@@ -48,9 +49,15 @@
 }
 .cut-off{
   display: -webkit-box;
-  height: 10vh;
+  height: 3.6em;
   text-overflow: ellipsis;
   overflow: hidden;
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;  
+}
+.image-p{
+  width:200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
 }
