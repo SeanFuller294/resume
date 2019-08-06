@@ -12,7 +12,6 @@
   display: inline-block;
 }
 .smaller-div{
-  width: 600px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -36,4 +35,16 @@
 
 #right {
   float: right;
+}
+
+.footer{
+  height: 25vh;
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+}
+.smaller-p{
+  width:200px;
+  margin-left: auto;
+  margin-right: auto;
 }
