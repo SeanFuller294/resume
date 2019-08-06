@@ -1,4 +1,4 @@
-#header{
+.blue-bar{
   background-color: navy;
   border: 5px solid black;
 }
@@ -7,4 +7,33 @@
 }
 .white{
   color:white;
+}
+.block{
+  display: inline-block;
+}
+.smaller-div{
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.right{
+ float: right; 
+}
+#grey-block{
+  height: 15px;
+  width:325px;
+  color: grey;
+  background-color: grey;
+}
+
+#wrapper {
+  display: flex;
+}
+
+#left {
+  flex: 0 0 65%;
+}
+
+#right {
+  float: right;
 }
